@@ -1,0 +1,237 @@
+html {
+  width: 100%;
+  margin-right: 1em ;
+}
+
+
+body {
+  width: 100%;
+  font-family: "Raleway";
+}
+
+#i {
+  color: #0065fc;
+  background-color: white;
+  border-radius: 50%;
+  border: grey 1px solid;
+  padding: 0.3em 0.55em;
+  margin: 0.5em;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+}
+
+header > div {
+  width: 100%;
+}
+
+#barre_logo_inscrire {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+nav {
+  width: 100%;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0 2rem 0;
+}
+nav > a:visited {
+  color: #0065fc;
+  text-decoration: underline #0065fc 3px;
+}
+
+#logements_supp {
+  display: flex;
+  justify-content: left;
+}
+
+#acti > div {
+  border: grey 1px solid;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 0px 3px 5px rgb(172, 172, 172);
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  height: 15em
+}
+#acti > div > img {
+  width: 100%;
+  height: 80%;
+}
+#acti > div > h4 {
+  height: 20%;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+}
+
+#filtres a {
+  border: solid grey 1px;
+  padding: 0 0.5em 0 0;
+}
+form a {
+  border-radius: 200px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+form i {
+  font-size: 1.5em;
+  width: 1em;
+  height: 1em;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 50px;
+  color: #0065fc;
+  background-color: #deebff;
+  display: flex;
+  justify-content: center;
+}
+i:hover {
+  color: pink;
+  background-color: royalblue;
+}
+
+form {
+  border: black 2px solid;
+  font-size: 1em;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#gps {
+  height: 1em;
+  width: 1em;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  color: black;
+  padding: 0.5em;
+  border-radius: 12px 0 0 12px;
+}
+#logo_gps {
+  display: none;
+}
+
+#loupe {
+  background-color: #0065fc;
+  color: white;
+  padding: 0.5em;
+  border-radius: 12px;
+}
+#logo_loupe {
+  display: none;
+}
+
+#logo {
+  height: 100%;
+}
+
+#text_inscrire {
+  margin-right: 2em;
+  font-size: 1.5em;
+  color: #0065fc;
+  font-weight: bold;
+}
+
+footer,
+#populaire {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#tit_pop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#tit_pop > i {
+  font-size: 1.5em;
+}
+
+#Les_heb > a {
+  text-decoration: none;
+  color: black;
+  border: white 5px solid;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0px 3px 5px grey;
+  display: flex;
+  align-items: stretch;
+  height: 8em; 
+}
+#Les_heb > a > img {
+  width: 10em;
+  size: 100%;
+  margin-right: 1.5em;
+}
+
+#heber > a {
+  text-decoration: none;
+  color: black;
+  border: white 5px solid;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0px 3px 5px grey;
+  display: flex;
+  align-items: stretch;
+  height: 10em;
+}
+#heber > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+#plus {
+  font-weight: bold;
+}
+
+/*Les étoiles*/
+span {
+  color : grey
+}
+mark {
+  color: #0065fc;
+  background: none;
+}
+
+#block {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
+h4 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+li {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+ul {
+  list-style: none;
+}
