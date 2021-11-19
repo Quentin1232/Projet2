@@ -1,1 +1,136 @@
-/*body {background-color: green}*/
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  padding: 1em
+}
+
+#L1_pc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#inscrire_mobile {
+  display: none;
+}
+#inscrire_pc {
+  display: block;
+}
+
+nav {
+  width: auto;
+  column-gap: 2rem;
+}
+nav > a {
+  border: none;
+
+}
+
+.text_inscrire {
+  font-size: unset;
+}
+#loupe {
+  display: none;
+}
+#loupe_pc {
+  display: block;
+  background-color: #0065fc;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0 12px 12px 0;
+  font-size: 1.35em;
+  margin: 0%;
+}
+#ville {
+  margin-bottom: 3em;
+}
+#search {
+  height : 3.5em;
+}
+
+#tfiltres{
+  display: flex;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#heb_marseille {
+  order: 1;
+  width: 60%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+#heber{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#heber > a {
+  width: 30%;
+}
+
+
+#populaire {
+  order: 2;
+  width: 30%;
+  border-radius: 20px;
+}
+#Les_heb {
+  height : 90%;
+  justify-content: space-around;
+}
+#Les_heb > a {
+  height: 10em;
+  align-content: space-around;
+}
+
+
+#act {
+  order: 3;
+  width: 100%;
+}
+#acti {
+  height: 30em;
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: stretch;
+}
+
+#acti > div > a {
+  height: unset;
+  max-width: 100%;
+}
+
+.case {
+  height: 100%;
+  width: 22%;
+}
+
+#vieux_port {
+  max-height: 100%;
+}
+#fort {
+  max-height: 55%;
+}
+#îles {
+  max-height: 40%;
+}
+#Calanques {
+  max-height: 100%;
+}
+#Notre_Dame {
+  max-height: 40%
+}
+#Longchamps {
+  max-height: 55%;
+}

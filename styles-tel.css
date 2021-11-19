@@ -1,5 +1,13 @@
+* {
+  border: solid red 1px;
+}
+
 html {
   width: 100%;
+}
+
+header {
+  max-width : 100% ;
 }
 
 body {
@@ -8,11 +16,16 @@ body {
   margin: unset;
 }
 
-header {
-  padding: 0 1rem;
-}
 header > div {
   width: 100%;
+}
+
+#head_part2 {
+  margin-left: 1em;
+}
+
+a {
+  text-decoration: none;
 }
 
 #barre_logo_inscrire {
@@ -20,15 +33,19 @@ header > div {
   justify-content: space-between;
   height: 3rem;
   align-items: center;
-  padding: 0 2rem;
+  padding: 1rem;
 }
 #logo {
   height: 100%;
 }
-#text_inscrire {
-  font-size: 1.5em;
+.text_inscrire {
+  font-size: 1rem;
   color: #0065fc;
   font-weight: bold;
+}
+
+#inscrire_pc {
+  display: none;
 }
 
 nav {
@@ -37,11 +54,22 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 2rem 0 2rem 0;
+  height: 1.5rem;
+  padding-top: 1em;
 }
-nav > a:visited {
+nav > a {
+  color: black;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+  border-bottom: solid 3px #f2f2f2;
+}
+
+nav > a:hover {
   color: #0065fc;
-  text-decoration: underline #0065fc 3px;
+  border-bottom: solid 3px #0065fc;
 }
 
 form {
@@ -97,6 +125,9 @@ i:hover {
   border-radius: 12px;
 }
 #logo_loupe {
+  display: none;
+}
+#loupe_pc {
   display: none;
 }
 
@@ -178,7 +209,7 @@ footer,
   height: 15em;
 }
 
-.block {
+.txt_pop {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -186,16 +217,32 @@ footer,
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
-.block > img {
+.txt_pop > h4 {
+  padding-left: 0.5em;
+}
+.txt_pop > p {
+  padding-left: 0.5em;
+}
+
+
+.block_heber_mars {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.block_heber_mars > img {
   height: 60%;
   object-fit: cover;
   margin-bottom: 1em;
   margin-block-end: 0em;
 }
-.block > h4 {
+.block_heber_mars > h4 {
   padding-left: 0.5em;
 }
-.block > p {
+.block_heber_mars > p {
   padding-left: 0.5em;
 }
 
@@ -215,12 +262,13 @@ mark {
 
 #acti {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   row-gap: 1rem;
+  flex-wrap: wrap;
 }
-#acti > a {
+#acti > div > a {
   border-radius: 15px;
-  margin: 10px;
+  margin-bottom : 20px;
   box-shadow: 0px 3px 5px rgb(202, 202, 202);
   display: flex;
   align-items: stretch;
@@ -229,12 +277,12 @@ mark {
   height: 13em;
   text-decoration: none;
 }
-#acti > a > img {
+#acti > div > a > img {
   width: 100%;
   height: 80%;
   object-fit: cover;
 }
-#acti > a > h4 {
+#acti > div > a > h4 {
   color: black;
   height: 20%;
   padding-bottom: 1em;
@@ -247,7 +295,7 @@ mark {
 
 h4 {
   margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
+  margin-block-end: 0.0em;
 }
 p {
   margin-block-start: 0.5em;
@@ -260,4 +308,17 @@ li {
 ul {
   list-style: none;
   padding: unset;
+}
+
+
+
+/*test*/
+/* body, html {
+max-width: 100%;
+overflow-x: hidden;
+} */
+* {
+  outline: 1px solid red;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
