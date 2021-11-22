@@ -107,7 +107,6 @@ main {
 }
 
 #acti > div > a {
-  height: unset;
   max-width: 100%;
 }
 
@@ -117,20 +116,20 @@ main {
 }
 
 #vieux_port {
-  max-height: 100%;
+  height: 100%;
 }
 #fort {
-  max-height: 55%;
+  height: 55%;
 }
 #îles {
-  max-height: 40%;
+  height: 40%;
 }
 #Calanques {
-  max-height: 100%;
+  height: 100%;
 }
 #Notre_Dame {
-  max-height: 40%
+  height: 40%
 }
 #Longchamps {
-  max-height: 55%;
+  height: 55%;
 }

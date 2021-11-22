@@ -22,6 +22,7 @@ header > div {
 
 #head_part2 {
   margin-left: 1em;
+  width: auto;
 }
 
 a {
@@ -265,8 +266,10 @@ mark {
   flex-direction: row;
   row-gap: 1rem;
   flex-wrap: wrap;
+  width: 100%;
 }
 #acti > div > a {
+  width: 100%;
   border-radius: 15px;
   margin-bottom : 20px;
   box-shadow: 0px 3px 5px rgb(202, 202, 202);
@@ -274,7 +277,6 @@ mark {
   align-items: stretch;
   overflow: hidden;
   flex-direction: column;
-  height: 13em;
   text-decoration: none;
 }
 #acti > div > a > img {
@@ -282,6 +284,29 @@ mark {
   height: 80%;
   object-fit: cover;
 }
+
+.case {
+  width: 100%;
+}
+#vieux_port {
+  height: 13em;
+}
+#fort {
+  height: 13em;
+}
+#îles {
+  height: 13em;
+}
+#Calanques {
+  height: 13em;
+}
+#Notre_Dame {
+  height: 13em;
+}
+#Longchamps {
+  height: 13em;
+}
+
 #acti > div > a > h4 {
   color: black;
   height: 20%;
@@ -313,12 +338,3 @@ ul {
 
 
 /*test*/
-/* body, html {
-max-width: 100%;
-overflow-x: hidden;
-} */
-* {
-  outline: 1px solid red;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
