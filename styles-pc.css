@@ -45,6 +45,7 @@ nav > a {
 }
 #ville {
   margin-bottom: 3em;
+  width: fit-content;
 }
 #search {
   height : 3.5em;
