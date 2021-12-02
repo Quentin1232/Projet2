@@ -1,9 +1,9 @@
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 header {
-  padding: 1em
+  padding: 1em;
 }
 
 #L1_pc {
@@ -25,7 +25,6 @@ nav {
 }
 nav > a {
   border: none;
-
 }
 
 .text_inscrire {
@@ -48,10 +47,10 @@ nav > a {
   width: fit-content;
 }
 #search {
-  height : 3.5em;
+  height: 3.5em;
 }
 
-#tfiltres{
+#tfiltres {
   display: flex;
 }
 
@@ -68,16 +67,16 @@ main {
   border-radius: 20px;
 }
 
-#heber{
-  display:flex;
+#heber {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 #heber > a {
   width: 30%;
+  height: 18em;
 }
-
 
 #populaire {
   order: 2;
@@ -85,14 +84,13 @@ main {
   border-radius: 20px;
 }
 #Les_heb {
-  height : 90%;
+  height: 90%;
   justify-content: space-around;
 }
 #Les_heb > a {
-  height: 10em;
+  height: 11.5em;
   align-content: space-around;
 }
-
 
 #act {
   order: 3;
@@ -129,8 +127,14 @@ main {
   height: 100%;
 }
 #Notre_Dame {
-  height: 40%
+  height: 40%;
 }
 #Longchamps {
   height: 55%;
+}
+#acti > div > a > img {
+  display: unset;
+}
+#vieux_port > img {
+  height: 140%;
 }
