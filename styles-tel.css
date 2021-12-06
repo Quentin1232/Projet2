@@ -94,10 +94,6 @@ form a {
   display: flex;
   justify-content: center;
 }
-i:hover {
-  color: pink;
-  background-color: royalblue;
-}
 
 #ville{
   height: 3.2em;
