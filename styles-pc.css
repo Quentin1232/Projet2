@@ -37,7 +37,8 @@ nav > a {
   display: block;
   background-color: #0065fc;
   color: white;
-  padding: 0.5em;
+  padding: 0.6em;
+  border: none;
   border-radius: 0 12px 12px 0;
   font-size: 1.35em;
   margin: 0%;
